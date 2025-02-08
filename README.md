@@ -33,3 +33,15 @@ Ejecuta el siguiente comando según tu sistema operativo:
 python -m venv venv
 venv\Scripts\activate
 ```
+
+### 3️⃣ Instalar dependencias
+
+```bash
+pip install -r requirements.txt
+```
+
+### 4️⃣ Extraer los datos desde la API y cargar en .json
+
+```bash
+python src/extract.py
+```
