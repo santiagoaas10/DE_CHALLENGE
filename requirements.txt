@@ -1,0 +1,6 @@
+requests
+pandas
+numpy
+ydata-profiling
+matplotlib
+pytest
