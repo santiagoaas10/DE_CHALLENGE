@@ -56,3 +56,17 @@ Los Dataframes quedan cargados inicialmente como CSVs en la carpeta DATA
 ```bash
 python src/dfs_creation.py
 ```
+
+### 6️⃣ Hacer la limpieza de datos, de acuerdo a lo mencionado en el análisis y cargar en formato parquet
+
+Cuando se ejecute el script clean.py se obtendrán los 3 dataframes almacenados en formato parquet, el de shows (normalizado y sin columnas redundantes), episodes (sin columnas redundantes) y también el nuevo de genres
+
+Estos dataframes quedarán en la carpeta DATA con los siguientes nombres:
+
+- episodes_cleaned.parquet
+- shows_cleaned.parquet
+- genres_cleaned.parquet
+
+```bash
+python src/clean.py
+```
