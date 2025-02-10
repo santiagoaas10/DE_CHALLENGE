@@ -42,6 +42,17 @@ pip install -r requirements.txt
 
 ### 4️⃣ Extraer los datos desde la API y cargar en .json
 
+Se ejecuta este Script y se obtiene la carpeta JSON con los archivos leidos desde la API para cada día
+
 ```bash
 python src/extract.py
+```
+
+### 5️⃣ Crear Dataframes de Shows y Episodios, obtener el profiling de los datos como HTML y análisis de estos
+
+Cuando se ejecute el script dfs_creation.py se obtendrán los dataframes creados con pandas a partir de la lectura de los objetos JSON, también se generarán dos archivos que son episodes_report.html y shows_report.html que se pueden abrir en el navegador y dan unas métricas estadísticas de los datos y análisis exploratorio de los mismos. Adicionalmente se agregí el archivo ANALISIS.md que contiene el análisis propio y aterrizado de estre profiling.
+Los Dataframes quedan cargados inicialmente como CSVs en la carpeta DATA
+
+```bash
+python src/dfs_creation.py
 ```

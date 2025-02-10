@@ -4,3 +4,5 @@ numpy
 ydata-profiling
 matplotlib
 pytest
+pyarrow
+fastparquet
