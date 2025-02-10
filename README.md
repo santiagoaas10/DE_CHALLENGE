@@ -70,3 +70,11 @@ Estos dataframes quedarán en la carpeta DATA con los siguientes nombres:
 ```bash
 python src/clean.py
 ```
+
+### 7️⃣ Lectura de archivos parquet, almacenamiento en base de datos entretenimiento.db, creación de modelo de datos y posterior carga de datos a tablas definidas en el modelo
+
+Cuando se ejecuta el script load.py, se obtendrá una base de datos lamada entretenimiento en la carpeta db, allí habrán 3 tablas que se crearán a partir de la lectura de los 3 DataFrames almacenados en formato parquet, correspondientes al modelo explicado a través del diagrama de entidad disponible en model/model.png
+
+```bash
+python src/load.py
+```
