@@ -78,3 +78,15 @@ Cuando se ejecuta el script load.py, se obtendrá una base de datos lamada entre
 ```bash
 python src/load.py
 ```
+
+### 8️⃣ Lectura de base de datos para responder a las preguntas sobre los datos.
+
+Al ejecutar el script read.py se obtiene la información correspondiente a las preguntas realizadas sobre los datos:
+
+a. Runtime promedio (averageRuntime).
+b. Conteo de shows de tv por género.
+c. Listar los dominios únicos (web) del sitio oficial de los shows.
+
+```bash
+python src/read.py
+```
