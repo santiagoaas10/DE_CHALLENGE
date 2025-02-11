@@ -10,10 +10,22 @@ Se realiza una extracción desde la API de TVMaze, seguida de transformaciones, 
 - **ETL:** `pandas`, `requests`, `matplotlib`
 - **Almacenamiento:** Archivos JSON, Parquet con compresión Snappy, SQLite
 - **Análisis de Datos:** `ydata-profiling`, `pandas`, `profiling`
-- **Testing:** `pytest`
-- **ORM:** `SQLAlchemy`
+- **Base de datos:** `SQLite`
 
-📡 API → 🗄️ JSON → 📊 DataFrames → 🔍 Profiling → 🛠️ Limpieza → 📁 Parquet → 🏛️ SQLite → 📈
+📡 API → 🗄️ JSON → 📊 DataFrames → 🔍 Profiling → 🛠️ Limpieza → 📁 Parquet → 🏛️ SQLite → Lectura📈
+
+## Estructura de carpetas
+
+📂 DE_CHALLENGE/
+│── 📂 JSON/ # Datos crudos extraídos desde la API
+│── 📂 profiling/ # Reportes de profiling y análisis exploratorio
+│── 📂 data/ # Archivos en formato Parquet
+│── 📂 db/ # Base de datos SQLite
+│── 📂 model/ # Imagen del modelo de datos
+│── 📂 SRC/ # Scripts ETL y análisis
+│── 📜 README.md # Documentación del proyecto
+│── 📜 requirements.txt # Dependencias necesarias
+│── 📜 .gitignore # Archivos a ignorar en el repositorio
 
 ### 1️⃣ clonar el repositorio
 
